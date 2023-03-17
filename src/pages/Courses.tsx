@@ -7,7 +7,7 @@ import CPS from "../assets/CPS.png";
 
 export function Courses() {
   return (
-    <section id="courses" className="flex flex-col py-10 gap-10">
+    <section id="courses" className="flex flex-col gap-10">
       <div className="flex flex-col gap-10 items-center">
         <strong className="text-4xl text-center">Minhas qualificações</strong>
         <div className="w-full lg:w-3/5 flex flex-col items-start">

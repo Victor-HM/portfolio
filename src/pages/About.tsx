@@ -5,7 +5,7 @@ export function About() {
   return (
     <section
       id="about"
-      className="flex flex-col lg:flex-row justify-between items-center gap-12 lg:gap-24 py-14 lg:py-28 px-10 lg:px-20"
+      className="flex flex-col lg:flex-row justify-between items-center gap-12 lg:gap-24 px-10 lg:px-20"
     >
       <img
         src="https://github.com/Victor-HM.png"

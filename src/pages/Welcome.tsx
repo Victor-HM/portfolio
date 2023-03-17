@@ -8,7 +8,7 @@ export function Welcome({ navigation }: WelcomeProps) {
   return (
     <section
       id="welcome"
-      className="flex flex-col items-center gap-20 py-14 lg:py-28 px-0 lg:px-20"
+      className="h-screen flex flex-col items-center justify-between gap-10 lg:gap-0 py-20 lg:py-20 px-0 lg:px-20"
     >
       <div className="flex flex-col items-center gap-10">
         <span className="bg-neutral-900 p-2 rounded-md">
@@ -26,27 +26,27 @@ export function Welcome({ navigation }: WelcomeProps) {
           Qualquer dúvida, entre em contato.
         </p>
 
-        <div className="w-12 h-12 flex relative">
-          <a
-            href="#about"
-            className="w-full h-full z-50"
-            onClick={(e) => navigation(e)}
-          ></a>
-          <ArrowCircleDown
-            size={48}
-            className="absolute animate-bounce text-violet-700 z-0"
-          />
+        <div className="flex items-center gap-10">
+          <a href="https://github.com/Victor-HM">
+            <i className="fa fa-github fa-2x"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/victor-hugo-carvalho-moreira-dos-santos-54b9ab1ba">
+            {/* <img src={LinkedinIcon} alt="" className="w-10" /> */}
+            <i className="fa-brands fa-linkedin fa-2x"></i>
+          </a>
         </div>
       </div>
 
-      <div className="flex items-center gap-10">
-        <a href="https://github.com/Victor-HM">
-          <i className="fa fa-github fa-2x"></i>
-        </a>
-        <a href="https://www.linkedin.com/in/victor-hugo-carvalho-moreira-dos-santos-54b9ab1ba">
-          {/* <img src={LinkedinIcon} alt="" className="w-10" /> */}
-          <i className="fa-brands fa-linkedin fa-2x"></i>
-        </a>
+      <div className="w-12 h-12 flex relative">
+        <a
+          href="#about"
+          className="w-full h-full z-50"
+          onClick={(e) => navigation(e)}
+        ></a>
+        <ArrowCircleDown
+          size={48}
+          className="absolute animate-bounce text-violet-700 z-0"
+        />
       </div>
     </section>
   );

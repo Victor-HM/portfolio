@@ -3,10 +3,7 @@ import Tailwind from "../assets/tailwindcss.svg";
 
 export function Skills() {
   return (
-    <section
-      id="skills"
-      className="flex flex-col items-center gap-5 py-10 px-8"
-    >
+    <section id="skills" className="flex flex-col items-center gap-5 px-8">
       <strong className="text-4xl">Skills</strong>
       <div className="flex gap-3 flex-wrap justify-center">
         <div className="w-full lg:w-96 bg-neutral-900 py-4 px-5 flex items-center gap-2 rounded-md border-2 border-violet-700">

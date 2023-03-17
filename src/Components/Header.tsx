@@ -22,14 +22,11 @@ export function Header({ navigation }: HeaderProps) {
         <a href="#about" onClick={(e) => navigation(e)}>
           Sobre
         </a>
-        <a href="#courses" onClick={(e) => navigation(e)}>
-          Qualificações
-        </a>
         <a href="#projects" onClick={(e) => navigation(e)}>
           Projetos
         </a>
         <a href="#networking" onClick={(e) => navigation(e)}>
-          Networking
+          Contato
         </a>
       </div>
 

@@ -34,16 +34,6 @@ export function Aside({ isHidden, navigation, setIsHidden }: AsideProps) {
         Sobre
       </a>
       <a
-        href="#courses"
-        className="text-xl"
-        onClick={(e) => {
-          navigation(e);
-          setIsHidden(false);
-        }}
-      >
-        Qualificações
-      </a>
-      <a
         href="#projects"
         className="text-xl"
         onClick={(e) => {
@@ -61,7 +51,7 @@ export function Aside({ isHidden, navigation, setIsHidden }: AsideProps) {
           setIsHidden(false);
         }}
       >
-        Networking
+        Contato
       </a>
     </aside>
   );

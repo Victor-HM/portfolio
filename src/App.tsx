@@ -21,7 +21,7 @@ function App() {
   return (
     <>
       <Header navigation={Navigation} />
-      <main className="pt-20 text-white">
+      <main className="flex flex-col gap-20 pt-20 text-white">
         <Welcome navigation={Navigation} />
         <About />
         <Courses />
