@@ -35,7 +35,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 Este projeto é o meu portfólio, onde eu mostro a minhas skills, redes sociais, projetos e te conto mais sobre mim.
 
-- [Acesse o projeto finalizado, online](https://responsive-chat-bora-codar.vercel.app)
+- [Acesse o projeto finalizado, online](https://victorhm.vercel.app)
 
 ## :memo: Licença
 
