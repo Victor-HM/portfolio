@@ -20,17 +20,16 @@ function App() {
 
   return (
     <>
-      <Header navigation={Navigation} />
-      <main className="flex flex-col gap-20 pt-20 text-white">
+      <main className="flex flex-col gap-20 text-white">
         <Welcome navigation={Navigation} />
+        <Projects />
         <About />
         <Courses />
-        <Projects />
         <Skills />
         <Networking navigation={Navigation} />
       </main>
       <footer className="w-full bg-[#0d0d0d] py-5 text-white flex justify-center items-center gap-3">
-        <p>Victor Hugo © 2023</p>
+        <p>Victor Hugo Carvalho Moreira dos Santos © 2023</p>
       </footer>
     </>
   );

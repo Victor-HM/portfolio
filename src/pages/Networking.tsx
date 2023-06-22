@@ -7,17 +7,17 @@ interface Networking {
 
 export function Networking({ navigation }: Networking) {
   return (
-    <div id="networking" className="flex flex-col items-center gap-16 mt-28">
+    <div id="networking" className="flex flex-col items-center gap-16">
       <div className="w-1/2 flex flex-col items-center gap-5">
         <strong className="text-5xl lg:text-6xl text-violet-700">
           Networking
         </strong>
-        <p className="text-lg text-center text-gray-400">
+        <p className="text-lg text-center text-gray-700">
           Você pode me enviar um email ou conversar diretamente através das
           minhas redes.
         </p>
       </div>
-      <div className="flex flex-wrap justify-center gap-5">
+      <div className="flex flex-wrap justify-center gap-5 text-black">
         <a
           href="https://www.linkedin.com/in/victor-hugo-carvalho-moreira-dos-santos-54b9ab1ba"
           target="_blank"

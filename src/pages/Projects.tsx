@@ -6,7 +6,7 @@ import Buttons from "../assets/typeButton.png";
 
 export function Projects() {
   return (
-    <section id="projects" className="flex flex-col items-center px-14 py-14">
+    <section id="projects" className="flex flex-col items-center px-14 py-0">
       <strong className="text-4xl mb-4 text-center">Meus projetos</strong>
       <div className="flex flex-wrap justify-center gap-4">
         <Repos

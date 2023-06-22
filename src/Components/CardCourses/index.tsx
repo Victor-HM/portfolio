@@ -31,15 +31,15 @@ export function CardCourses({
             position={position}
             className="flex items-center gap-3 after:w-3 after:h-3 after:absolute after:shadow-purple after:bg-violet-700 after:rounded-full"
           >
-            <div className="bg-neutral-900 p-3 rounded-full">
+            <div className="bg-neutral-300 p-3 rounded-full">
               <Student size={24} className="text-violet-600" weight="fill" />
             </div>
             <img src={img} alt="" className="h-8" />
           </S.PointCard>
-          <p className="text-sm text-gray-400">{subtitle}</p>
+          <p className="text-sm text-gray-700">{subtitle}</p>
 
           <div>
-            <p>{text}</p>
+            <p className="text-black">{text}</p>
           </div>
           <div className="flex items-center gap-1">
             <CalendarBlank size={20} weight="fill" />

@@ -6,15 +6,15 @@
 
 <br>
 
-<p align="center" width='100%' display=''>
+<div align="center" width='100%'>
 
-  <h3 align='center'>Web</h3>
-  <img alt="portfólio na web" src=".github/preview_web.png" width="100%">
+  <h3>Web</h3>
+  <img alt="portfólio na web" src=".github/preview_web.png" width='80%'>
 
-  <h3 align='center'>Mobile</h3>
-  <img alt="portfólio no celular" src=".github/preview_mobile.png" width="50%" align='center'>
+  <h3>Mobile</h3>
+  <img alt="portfólio no celular" src=".github/preview_mobile.png">
 
-</p>
+</div>
 
 ## ✅ Status
 

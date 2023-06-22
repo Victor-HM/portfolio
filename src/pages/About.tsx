@@ -5,12 +5,12 @@ export function About() {
   return (
     <section
       id="about"
-      className="flex flex-col lg:flex-row justify-between items-center gap-12 lg:gap-24 px-10 lg:px-20"
+      className="flex flex-col lg:flex-row justify-between items-center gap-12 lg:gap-28 px-10 lg:px-20 text-black"
     >
       <img
         src="https://github.com/Victor-HM.png"
         alt=""
-        className="w-2/2 lg:w-4/5 rounded-full object-contain shadow-purple"
+        className="w-2/2 lg:w-96 rounded-full object-contain shadow-purple"
       />
       <div className="w-full flex flex-col gap-8">
         <span className="flex items-center gap-2">
@@ -23,13 +23,13 @@ export function About() {
           e JavaScript puro.
         </h1>
 
-        <p className="text-gray-300 leading-4">
+        <p className="text-gray-700 leading-4">
           Meu nome é Victor, tenho 18 anos e atuo na área de desenvolvimento há
           mais de 3 ano. Possuo experiência em diversos projetos e tecnologias,
           mas estou buscando a minha primeira oportunidade no mercado como
           desenvolvedor Junior.
         </p>
-        <p className="text-gray-300 leading-5">
+        <p className="text-gray-700 leading-5">
           Logo abaixo tem o meu currículo com informaçôes mais detalhadas sobre
           mim. Se preferir, podemos marcar uma call atráves do meu e-mail que
           está disponibilizado.
