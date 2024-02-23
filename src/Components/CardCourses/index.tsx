@@ -9,6 +9,7 @@ interface CardCoursesProps {
   complete?: string | "Em progresso";
   position?: "LEFT" | "RIGHT";
   certificate?: string;
+  download?: string;
 }
 
 export function CardCourses({
@@ -18,6 +19,7 @@ export function CardCourses({
   complete,
   position = "LEFT",
   certificate,
+  download,
 }: CardCoursesProps) {
   return (
     <S.CardCourses className="w-full relative  before:bg-[#474747] before:rounded-md before:absolute before:w-[2px] before:h-full">
@@ -34,23 +36,27 @@ export function CardCourses({
             <div className="bg-neutral-300 p-3 rounded-full">
               <Student size={24} className="text-violet-600" weight="fill" />
             </div>
-            <img src={img} alt="" className="h-8" />
+            <img src={img} alt="" className="h-10" />
           </S.PointCard>
           <p className="text-sm text-gray-700">{subtitle}</p>
 
           <div>
             <p className="text-black">{text}</p>
           </div>
-          <div className="flex items-center gap-1">
-            <CalendarBlank size={20} weight="fill" />
-            <p className="text-sm">{complete ? complete : "Em progresso"}</p>
+          <div className="flex items-center gap-1 text-black">
+            <CalendarBlank size={20} weight="light" />
+            <p className="text-sm ">{complete ? complete : "Em progresso"}</p>
           </div>
 
-          <a href={`document/${certificate}`} download="Certificado Rocketseat">
+          <a
+            href={`document/${certificate}`}
+            download={download}
+            className="w-fit"
+          >
             <Button
-              placeholder={complete ? "Emitir certificado" : "Em progresso"}
-              typeButton={complete ? "SECONDARY" : "DISABLE"}
-              disabled={complete ? false : true}
+              placeholder={certificate ? "Emitir certificado" : "Em progresso"}
+              typeButton={certificate ? "SECONDARY" : "DISABLE"}
+              disabled={certificate ? false : true}
             />
           </a>
         </div>
